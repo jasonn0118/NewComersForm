@@ -1,0 +1,90 @@
+/* .totalForm{
+    width:100%;
+    background-color: white;
+}
+.field {
+    width: 100%;
+    height: 56px;
+    border-radius: 4px;
+    position: relative;
+    background-color:white;
+    transition: 0.3s all;
+  }
+
+  .field input+label {
+    position: relative;
+    top: 24px;
+    left: 16px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #ffffff;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.1s all ease-in-out;
+  }
+  .field label{
+      font-size:9px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  .field input{
+      border: 2px solid lightblue;
+      border-radius: 4px
+  }
+  .field input:focus{
+      border: 3px solid lightseagreen;
+  }
+  .field select{
+    border: 2px solid lightblue;
+    border-radius: 4px
+}
+.field2 fieldset{
+    position: relative;
+    width:40%;
+    top:24px;
+    left:16px;
+    padding:5px;
+
+}
+.field2 fieldset input[type=text]{
+    border: none;
+    border-bottom: 2px solid lightskyblue;
+}
+.field2 input+label {
+    position: relative;
+    top: 24px;
+    left: 16px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #ffffff;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.1s all ease-in-out;
+  }
+  .field2 label{
+      font-size:9px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  .field2 input{
+      border: 2px solid lightblue;
+      border-radius: 4px
+  }
+  .field2 input:focus{
+    border: 3px solid rgb(32, 156, 178);
+}
+  .field2 select{
+    border: 2px solid lightblue;
+    border-radius: 4px
+}
+.required{
+    background-color: lightcyan
+} */
+/* .field2 List{
+    border: 2px solid black;
+} */
+.Container{
+    background-color: grey;
+}
