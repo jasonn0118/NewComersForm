@@ -57,7 +57,16 @@ export default class Form extends Component {
        preChurch:'',
        comeWith:'',
        volunteer:{},
+       volunteerArray: []
    }
+
+   handleMultipleSelect = (volunteerArray) => {
+       console.log('^^^^^^^^^^^^^^^^^^^^^^^^', volunteerArray);
+       this.setState({
+           volunteerArray
+       })
+   }
+
    handleChange=e=>{
        const checkBox = e.target.type ==='checkbox';
        this.setState({
@@ -391,7 +400,7 @@ export default class Form extends Component {
                         onChange={this.handleChange}
                         label="인도자 or 교회지인"
                     />
-                    <MultipleSelect handleSelectChange = {this.handleSelectChange}/>
+                    <MultipleSelect handleMultipleSelect={this.handleMultipleSelect} handleSelectChange = {this.handleSelectChange}/>
                 </div>
                 <br/>
                <button onClick={(e)=>this.onSubmit(e)}>Submit</button>

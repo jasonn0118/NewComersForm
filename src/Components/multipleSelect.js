@@ -70,16 +70,19 @@ const names = ["안내",
   }
   
 
-export default function MultipleSelect() {
+export default function MultipleSelect(props) {
     const classes = useStyles();
     const theme = useTheme();
     const [personName, setPersonName] = React.useState([]);
   
     function handleChange(event) {
       setPersonName(event.target.value);
-      this.props.handleSelectChange(this.personName);
+      // console.log('~~~~~~~~~',personName);
+      
+      // this.props.handleSelectChange(this.personName);
     }
-    console.log(personName);
+    props.handleMultipleSelect(personName)
+    // console.log(personName);
     return(
         <div className={classes.root}>
             <FormControl className={classes.formControl}>
