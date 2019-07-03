@@ -77,12 +77,9 @@ export default function MultipleSelect(props) {
   
     function handleChange(event) {
       setPersonName(event.target.value);
-      // console.log('~~~~~~~~~',personName);
-      
-      // this.props.handleSelectChange(this.personName);
+      console.log('~~~~~~~~~',personName);
+      props.handleMultipleSelect(personName);      
     }
-    props.handleMultipleSelect(personName)
-    // console.log(personName);
     return(
         <div className={classes.root}>
             <FormControl className={classes.formControl}>
