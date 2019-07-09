@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import './App.css';
 import Form from './Components/Form';
-import Validation from './Components/Validation';
 
 class App extends Component {
   onSubmit=(fields)=>{
@@ -10,8 +9,7 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-      {/* <Form onSubmit={fields => this.handleSubmit(fields)}/> */}
-      <Validation/>
+      <Form onSubmit={fields => this.handleSubmit(fields)}/>
     </div>
   );
 }
